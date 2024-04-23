@@ -1,0 +1,46 @@
+name: app_finance
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.2
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.4+1
+  sqflite_common_ffi: any
+  sqlite3_flutter_libs: any
+  path: ^1.8.2
+  provider: ^6.0.5
+  intl: ^0.18.0
+  fl_chart: ^0.60.0
+  flutter_localizations:
+    sdk: flutter
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  linux: true
+  image_path: "assets/icons/logo.png"
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
